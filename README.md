@@ -83,7 +83,7 @@ exploit
 
 
 On the target Windows machine, open a Web browser and open this URL, replacing the IP address with the IP address of your Kali machine:
-http://192.168.1.2/fun.exe
+http://192.168.14.241/fun.exe
 The file "fun.exe" downloads. 
 ![image](https://github.com/user-attachments/assets/b8a94154-39f4-492d-9328-a12caeb16461)
 
